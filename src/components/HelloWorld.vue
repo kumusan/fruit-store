@@ -9,7 +9,6 @@
 import { ref, defineComponent, computed } from "vue";
 import { counterStore } from "../stores/counter";
 import FormComponent from "./form.vue";
-import { goA } from "../router/index";
 import { useRouter } from "vue-router";
 
 export default defineComponent({
